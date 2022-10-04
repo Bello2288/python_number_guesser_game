@@ -20,12 +20,12 @@ while guessesTaken < 3:
     guessesTaken = guessesTaken + 1
 
     if guess < player_number:
-        guess = str(guess)
-        print('The computers guess is too low. The computer guessed ' + guess) 
+        # guess = str(guess)
+        print('The computers guess is too low. The computer guessed ',guess) 
     
     if guess > player_number:
-        guess = str(guess)
-        print('The computers guess is too high. The computer guessed ' + guess)
+        # guess = str(guess)
+        print('The computers guess is too high. The computer guessed ',guess)
     
     if guess == player_number:
         break
